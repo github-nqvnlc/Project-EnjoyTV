@@ -1,6 +1,6 @@
 const SearchBar = () => {
   return (
-    <div className="relative text-slate-200 text-lg">
+    <div className="hidden md:block relative text-slate-200 text-lg">
       <input
         type="search"
         name="serch"

@@ -4,7 +4,7 @@ import { MdOutlineExplore } from "react-icons/Md";
 
 const VerticalNavbar = () => {
   return (
-    <div className="fixed left-0 top-0 h-screen flex flex-col items-center justify-center">
+    <div className="fixed left-0 top-0 z-50 h-screen hidden lg:flex flex-col items-center justify-center">
       <div className="flex flex-col items-center justify-center gap-3">
         <div className=" text-slate-200/70 p-4 flex flex-col items-center hover:scale-110 hover:text-slate-200 duration-200 cursor-pointer">
           <BiHome size={20} />

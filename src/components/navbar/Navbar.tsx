@@ -6,14 +6,14 @@ import SearchBar from "./SearchBar";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="fixed top-0 w-screen z-50 bg-[#0f172a]">
       <Container>
         <div className="flex flex-row justify-between items-center">
           <div className="flex flex-row items-center gap-10">
             <Logo />
             <MenuList />
           </div>
-          <div className="flex flex-row items-center gap-10">
+          <div className="flex flex-row items-center justify-end gap-10">
             <SearchBar />
             <Avatar />
           </div>
