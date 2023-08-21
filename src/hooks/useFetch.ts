@@ -10,6 +10,8 @@ export interface ApiResponse {
   results: Array<ApiResponse>;
   total_pages: number | undefined | null;
   total_results: number;
+
+  english_name: string | undefined | null;
 }
 
 // Custom hook sử dụng TypeScript

@@ -5,24 +5,21 @@ import Heading from "../components/Heading";
 // import { useLocation, useSearchParams, useNavigate } from "react-router-dom";
 import SiderBar from "../components/siderBar/SiderBar";
 
-const NowPlaying = () => {
-  //   const navigate = useNavigate();
-  //   const location = useLocation();
-  //   const [params] = useSearchParams();
+interface MoviesPageProps {
+  url: string;
+  title: string;
+}
 
-  //   const page = params.get("page");
-
-  const url = `https://api.themoviedb.org/3/movie/popular?language=en-US&page=1`;
-
+const MoviesPage: React.FC<MoviesPageProps> = ({ url, title }) => {
   const { data, loading, error } = useFetch(url);
 
   return (
     <div>
-      <Heading title="Popular Movies" />
+      <Heading magrin={5} title={title} />
       <div className="flex flex-row gap-5 justify-between items-start">
         <SiderBar />
         <div>
-          <ResponsiveGrid data={data} loading={loading} error={error} />
+          <ResponsiveGrid data={data} loading={loading} error={error} page />
           <div
             className="w-full flex flex-row justify-center items-center"
             onClick={() => {}}
@@ -37,4 +34,4 @@ const NowPlaying = () => {
   );
 };
 
-export default NowPlaying;
+export default MoviesPage;

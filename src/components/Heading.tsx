@@ -26,8 +26,8 @@ const Heading: React.FC<HeadingProps> = ({
       <div className={center ? "text-center" : "text-start"}>
         <div
           className={
-            color
-              ? `text-[${size}] font-bold text-[${color}]`
+            size
+              ? `text-[${size}] font-bold text-white`
               : "text-sm sm:text-sm md:text-lg lg:text-xl xl:text-2xl font-bold text-slate-200"
           }
         >

@@ -53,13 +53,29 @@ const HomePage = () => {
         subtitle="Releasing 23 july"
         imageUrl={imgBanner}
       />
-      <Heading title="Popular Movies" onClick={() => navigate("/popular")} />
+      <Heading
+        title="Popular Movies"
+        onClick={() => navigate("/popular")}
+        magrin={5}
+      />
       <Slide data={data} loading={loading} error={error} time={300} />
-      <Heading title="Now playing" onClick={() => navigate("/now_playing")} />
+      <Heading
+        magrin={5}
+        title="Now playing"
+        onClick={() => navigate("/now-playing")}
+      />
       <NowPlayingSlider />
-      <Heading title="Up comming" />
+      <Heading
+        magrin={5}
+        title="Up coming"
+        onClick={() => navigate("/up-coming")}
+      />
       <UpCommingSlider />
-      <Heading title="Top Rated" />
+      <Heading
+        magrin={5}
+        title="Top Rated"
+        onClick={() => navigate("/top-rated")}
+      />
       <TopRateSlider />
     </>
   );

@@ -15,15 +15,21 @@ const MenuList = () => {
             Popular
           </div>
           <div
-            onClick={() => navigate("/now_playing")}
+            onClick={() => navigate("/now-playing")}
             className="block p-2 hover:bg-slate-300 hover:text-slate-700"
           >
             Now playing
           </div>
-          <div className="block p-2 hover:bg-slate-300 hover:text-slate-700">
-            Up comming
+          <div
+            onClick={() => navigate("/up-coming")}
+            className="block p-2 hover:bg-slate-300 hover:text-slate-700"
+          >
+            Up coming
           </div>
-          <div className="block p-2 hover:bg-slate-300 hover:text-slate-700">
+          <div
+            onClick={() => navigate("/top-rated")}
+            className="block p-2 hover:bg-slate-300 hover:text-slate-700"
+          >
             Top Rated
           </div>
         </div>
