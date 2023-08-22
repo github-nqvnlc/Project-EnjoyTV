@@ -19,7 +19,7 @@ const VerticalNavbar = () => {
           <p className="text-sm font-extralight">Explore</p>
         </div>
         <div className=" text-slate-200/70 p-4 flex flex-col items-center hover:scale-110 hover:text-slate-200 duration-200 cursor-pointer">
-          <PiTelevisionBold size={20} />
+          <BsFillCollectionPlayFill size={20} />
           <p className="text-sm font-extralight">Movies</p>
         </div>
         <div className=" text-slate-200/70 p-4 flex flex-col items-center hover:scale-110 hover:text-slate-200 duration-200 cursor-pointer">
