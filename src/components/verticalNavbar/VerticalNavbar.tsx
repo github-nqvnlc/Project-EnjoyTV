@@ -1,4 +1,4 @@
-import { GiFilmProjector } from "react-icons/Gi";
+import { PiTelevisionBold } from "react-icons/Pi";
 import { AiOutlineFire, AiOutlineHeart, AiOutlineHome } from "react-icons/Ai";
 import { MdOutlineExplore } from "react-icons/Md";
 
@@ -19,7 +19,7 @@ const VerticalNavbar = () => {
           <p className="text-sm font-extralight">Explore</p>
         </div>
         <div className=" text-slate-200/70 p-4 flex flex-col items-center hover:scale-110 hover:text-slate-200 duration-200 cursor-pointer">
-          <GiFilmProjector size={20} />
+          <PiTelevisionBold size={20} />
           <p className="text-sm font-extralight">Movies</p>
         </div>
         <div className=" text-slate-200/70 p-4 flex flex-col items-center hover:scale-110 hover:text-slate-200 duration-200 cursor-pointer">
