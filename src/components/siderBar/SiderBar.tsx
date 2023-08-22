@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillCaretRight, AiFillCaretDown } from "react-icons/Ai";
+import { AiFillCaretRight, AiFillCaretDown } from "react-icons/ai";
 import Sort from "./Sort";
 
 const SiderBar = () => {
