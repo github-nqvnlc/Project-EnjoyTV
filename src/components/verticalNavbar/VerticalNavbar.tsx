@@ -1,4 +1,4 @@
-import { PiTelevisionBold } from "react-icons/Pi";
+import { BsFillCollectionPlayFill } from "react-icons/bs";
 import { AiOutlineFire, AiOutlineHeart, AiOutlineHome } from "react-icons/Ai";
 import { MdOutlineExplore } from "react-icons/Md";
 
