@@ -1,5 +1,5 @@
-import { BiHome, BiMoviePlay } from "react-icons/Bi";
-import { AiOutlineFire, AiOutlineHeart } from "react-icons/Ai";
+import { GiFilmProjector } from "react-icons/Gi";
+import { AiOutlineFire, AiOutlineHeart, AiOutlineHome } from "react-icons/Ai";
 import { MdOutlineExplore } from "react-icons/Md";
 
 const VerticalNavbar = () => {
@@ -7,7 +7,7 @@ const VerticalNavbar = () => {
     <div className="fixed left-0 top-0 z-50 h-screen hidden lg:flex flex-col items-center justify-center">
       <div className="flex flex-col items-center justify-center gap-3">
         <div className=" text-slate-200/70 p-4 flex flex-col items-center hover:scale-110 hover:text-slate-200 duration-200 cursor-pointer">
-          <BiHome size={20} />
+          <AiOutlineHome size={20} />
           <p className="text-sm font-extralight">Home</p>
         </div>
         <div className=" text-slate-200/70 p-4 flex flex-col items-center hover:scale-110 hover:text-slate-200 duration-200 cursor-pointer">
@@ -19,7 +19,7 @@ const VerticalNavbar = () => {
           <p className="text-sm font-extralight">Explore</p>
         </div>
         <div className=" text-slate-200/70 p-4 flex flex-col items-center hover:scale-110 hover:text-slate-200 duration-200 cursor-pointer">
-          <BiMoviePlay size={20} />
+          <GiFilmProjector size={20} />
           <p className="text-sm font-extralight">Movies</p>
         </div>
         <div className=" text-slate-200/70 p-4 flex flex-col items-center hover:scale-110 hover:text-slate-200 duration-200 cursor-pointer">
