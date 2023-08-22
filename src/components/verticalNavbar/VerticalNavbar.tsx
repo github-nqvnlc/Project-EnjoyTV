@@ -1,5 +1,5 @@
 import { BsFillCollectionPlayFill } from "react-icons/bs";
-import { AiOutlineFire, AiOutlineHeart, AiOutlineHome } from "react-icons/Ai";
+import { AiOutlineFire, AiOutlineHeart, AiOutlineHome } from "react-icons/ai";
 import { MdOutlineExplore } from "react-icons/Md";
 
 const VerticalNavbar = () => {
